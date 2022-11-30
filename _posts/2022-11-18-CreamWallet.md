@@ -143,7 +143,7 @@ test id : test , test pw :test11
 * redux-toolkit 과 React-Hook의 분리 상태관리를 완전히 잘못 이해함 (11.21 다시 학습중)
 * 비동기 통신의 에러처리 (axios를 사용했기 때문에 promise 반환에 대한 .catch() 를 사용하여 에러처리)
 * 알맞은 React-Hook의 사용
-* refresh token의 사용(현재 access token만 헤더로 관리중)
+* refresh token의 사용(현재 access token만 헤더로 관리중) => 로그인시 access token을 헤더로 refresh token을 cookie로 저장하는 작업중(11.30)
 * 사용자 알림창 추가(Sweetalert2)
 * 년도 리스트 순서대로 출력
 * 상태관리 리팩토링(redux-toolkit)
