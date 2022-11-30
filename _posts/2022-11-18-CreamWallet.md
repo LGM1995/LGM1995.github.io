@@ -1,7 +1,7 @@
 ---
 title: 개인프로젝트 아이스크림 가계부 CreamWallet
 categories: [Porject, CreamWallet]
-tags: [react]		# TAG는 반드시 소문자로 이루어져야함!
+tags: [react, java, redux, redux-toolkit, spring boot, spring security, jpa, mysql, restful api]		# TAG는 반드시 소문자로 이루어져야함!
 lastmod : 2022-09-27 11:40:00 # 페이지의 마지막 수정일
 sitemap :
   changefreq : daily # 페이지의 변경 빈도 always/hourly/daily/weekly/monthly/yearly/never
