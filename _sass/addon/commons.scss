@@ -702,7 +702,7 @@ $sidebar-display: "sidebar-display";
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: 0.5px;
-      color: rgba(134, 133, 133, 0.99);
+      color: rgba(255, 255, 255, 0.99);
     }
   }
 
@@ -847,6 +847,10 @@ $sidebar-display: "sidebar-display";
       border-radius: 50%;
     }
   } /* .sidebar-bottom */
+
+  background: url('/assets/img/배경.JPG');
+  background-size: 100% 100%;
+  background-position: center;
 } /* #sidebar */
 
 @media (hover: hover) {

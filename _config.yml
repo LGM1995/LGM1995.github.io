@@ -10,7 +10,7 @@ baseurl: ''
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: ko
+lang: en
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
@@ -21,10 +21,10 @@ timezone: Asia/Seoul
 
 title: LGM1995                          # the main title
 
-tagline: 문서화 하지 않은 지식은 내 지식이 되기 어렵다..   # it will display as the sub-title
+tagline: 비전공자의 개발 기술 블로그   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  비전공자의 개발 기술 블로그
+  developer
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://lgm1995.github.io'
@@ -42,14 +42,14 @@ social:
   email: rjsahr5045@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - https://github.com/lmg1995       # change to your github homepage
     - https://www.facebook.com/gunmok.lee     
-    - https://github.com/username       # change to your github homepage
     - https://www.instagram.com/gunmok.l 
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification:               # fill in to your verification string
+google_site_verification: EIRzMIaCyjToi5Fyyz4UxgSJiW5jiK__-yHqZYSQIso
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -82,7 +82,7 @@ theme_mode: light
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://avatars.githubusercontent.com/u/110650972?v=4
+avatar: assets/img/프로필사진.jpeg
 
 # boolean type, the global switch for ToC in posts.
 toc: true

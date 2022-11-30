@@ -4,8 +4,13 @@
   type: github
   icon: 'fab fa-github'
 -
-  type: twitter
-  icon: 'fab fa-twitter'
+  type: instagram
+  icon: 'fab fa-instagram'
+  url: 'https://instagram.com/gunmok.l'
+-
+  type: facebook
+  icon: 'fab fa-facebook'
+  url: 'https://www.facebook.com/gunmok.lee'
 -
   type: email
   icon: 'fas fa-envelope'
