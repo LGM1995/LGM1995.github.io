@@ -22,7 +22,7 @@ Spring Security는 Spring 프레임워크 기반에서 작동하는 인증과 �
 
 ### 작동원리
 
-<img width="1426" alt="아키텍쳐" src="https://lgm1995.github.io/assets/img/learn/springboot/springsecurity/springsecurity_architecture.png>
+<img width="1426" alt="아키텍쳐" src="https://lgm1995.github.io/assets/img/learn/springboot/springsecurity/springsecurity_architecture.png">
 
 
 비전공자 입장에서 최대한 쉽게 이해한 전체적 흐름은 이렇다.
