@@ -1,11 +1,11 @@
 ---
 title: Spring Security + JWT Token + OAuth2 (2)
-categories: [Learn, Spring Boot]
+categories: [Learn, Spring]
 tags: [spring boot, spring security, oauth2, jwt]		# TAG는 반드시 소문자로 이루어져야함!
 lastmod : 2022-12-03 11:43:00 # 페이지의 마지막 수정일
 sitemap :
   changefreq : daily # 페이지의 변경 빈도 always/hourly/daily/weekly/monthly/yearly/never
-  priority : 1.0 # 페이지의 검색순위로 검색엔진에게 우선순위를 알려줌 0.0-1.0 (defult 0.5) 
+  priority : 1.0 # 페이지의 검색순위로 검색엔진에게 우선순위를 알려줌 0.0-1.0 (defult 0.5)
 ---
 
 ## JWT
@@ -45,5 +45,5 @@ jwt는 사용자가 로그인에 성공하면 서버는 jwt토큰을 클라이�
 5. 요청에 대한 응답
 
 만약 access token의 시간이 만료되었다면 refresh token을 대조하여 새로운 access token을 발급해준다.
-  
+
 >##### 개인적인 이해를 바탕으로 작성한 글 입니다. 피드백 언제든 환영합니다!

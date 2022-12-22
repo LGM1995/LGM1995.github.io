@@ -1,11 +1,11 @@
 ---
 title: Spring Security + JWT Token + OAuth2 (1)
-categories: [Learn, Spring Boot]
+categories: [Learn, Spring]
 tags: [spring boot, spring security, oauth2, jwt]		# TAG는 반드시 소문자로 이루어져야함!
 lastmod : 2022-11-30 17:50:00 # 페이지의 마지막 수정일
 sitemap :
   changefreq : daily # 페이지의 변경 빈도 always/hourly/daily/weekly/monthly/yearly/never
-  priority : 1.0 # 페이지의 검색순위로 검색엔진에게 우선순위를 알려줌 0.0-1.0 (defult 0.5) 
+  priority : 1.0 # 페이지의 검색순위로 검색엔진에게 우선순위를 알려줌 0.0-1.0 (defult 0.5)
 ---
 
 ## Spring Security
@@ -49,5 +49,5 @@ Spring Security는 Spring 프레임워크 기반에서 작동하는 인증과 �
 1. 서버에서 인메모리에 사용자 정보를 담기 때문에 사용자가 많아지면 서버에 부하가 커진다.
 
 해당 단점을 보완하기 위해 JWT Token 방식이 많이 사용된다. 다음글에서 JWT Token에 대해 알아보자
-  
+
 >##### 개인적인 이해를 바탕으로 작성한 글 입니다. 피드백 언제든 환영합니다!

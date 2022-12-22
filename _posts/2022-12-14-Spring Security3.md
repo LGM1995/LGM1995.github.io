@@ -1,6 +1,6 @@
 ---
 title: Spring Security + JWT Token + OAuth2 (3)
-categories: [Learn, Spring Boot]
+categories: [Learn, Spring]
 tags: [spring boot, spring security, oauth2, jwt]		# TAG는 반드시 소문자로 이루어져야함!
 lastmod : 2022-12-14 10:13:00 # 페이지의 마지막 수정일
 sitemap :
