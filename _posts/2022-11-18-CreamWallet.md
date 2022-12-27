@@ -4,8 +4,8 @@ categories: [Porject, CreamWallet]
 tags: [react, java, redux, redux-toolkit, spring boot, spring security, jpa, mysql, restful api]		# TAG는 반드시 소문자로 이루어져야함!
 lastmod : 2022-09-27 11:40:00 # 페이지의 마지막 수정일
 sitemap :
-  changefreq : daily # 페이지의 변경 빈도 always/hourly/daily/weekly/monthly/yearly/never
-  priority : 1.0 # 페이지의 검색순위로 검색엔진에게 우선순위를 알려줌 0.0-1.0 (defult 0.5) 
+changefreq : daily # 페이지의 변경 빈도 always/hourly/daily/weekly/monthly/yearly/never
+priority : 1.0 # 페이지의 검색순위로 검색엔진에게 우선순위를 알려줌 0.0-1.0 (defult 0.5)
 ---
 
 ## CreamWallet (React Project)
@@ -166,4 +166,4 @@ JWT Token의 사용으로 세션과 쿠키 헤더 사이에 로그인 로직을 
 이상으로 저의 Git에 방문해 주셔서 감사합니다.
 
 
-  
+
