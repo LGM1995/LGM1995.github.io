@@ -1,5 +1,5 @@
 ---
-title: [Linux] Shell Script에 대해서 알아보자
+title: &#91;Linux&#93; Shell Script에 대해서 알아보자
 categories: [Learn, Linux, ShellScript]
 tags: [linux, shell_script]		# TAG는 반드시 소문자로 이루어져야함!
 lastmod : 2023-04-07 10:48:00 # 페이지의 마지막 수정일
