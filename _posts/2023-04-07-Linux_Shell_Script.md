@@ -41,7 +41,7 @@ priority : 1.0 # 페이지의 검색순위로 검색엔진에게 우선순위를
     * 다른 사용자가 쉘 스크립트를 쉽게 수정이 가능하여 보안에 매우 취약
     * 큰 프로젝트나 로직을 처리하기에 적합하지 않으며 유지 보수가 어려움
 
-<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/java/vim단축키.png">
+<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/linux/vim단축키.png">
 
 ### 쉘 스크립트 기본
 
@@ -59,7 +59,7 @@ printf "hello, kim"
 printf "%s, %s" wow, vim # 문자열 전달
 ```
 
-<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/java/script1.png">
+<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/linux/script1.png">
 
 결과와 script를 보며 설명해본다.
 #!/bin/bash
@@ -83,7 +83,7 @@ age="20"
 echo "${name}, ${age}"
 ```
 
-<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/java/script2.png">
+<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/linux/script2.png">
 
 변수도 사용이 가능한데 변수명=값으로 선언하고 ${변수명}으로 사용한다.
 
@@ -104,7 +104,7 @@ export MY_NAME="kim"
 echo ${MY_NAME}
 ```
 
-<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/java/script3.png">
+<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/linux/script3.png">
 
 export로 변수를 선언해주고 exam.sh를 실행하면 exam.sh안에 ./exam2.sh를 실행할 때 변수가 사용되어 kim이 출력되는 것을 볼 수 있다.
 이처럼 export를 사용하면 다른 스크립트를 실행할 때 변수로 사용할 수 있게 해준다.
@@ -145,7 +145,7 @@ func
 func2
 ```
 
-<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/java/script4.png">
+<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/linux/script4.png">
 
 함수명을 선언할 때 function을 사용하거나 생략해도 좋다 하지만 호출 되기 전에 정의 되어야 하며 호출시에는 괄호를 쓰지 않는다.
 
@@ -165,7 +165,7 @@ echo "숫자는 1과 6이 아닌 수!"
 fi
 ```
 
-<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/java/script5.png">
+<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/linux/script5.png">
 
 숫자 7에 대한 조건 문으로 인해 1과 6이 아닌 수 라는 문자열이 출력된다.
 
@@ -185,7 +185,7 @@ done
 
 0부터 시작하여 2씩 증가하면서 출력하는 반복문
 
-<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/java/script6.png">
+<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/linux/script6.png">
 
 for문
 ```
@@ -207,13 +207,13 @@ echo
 
 처음 for문에 의해 리스트가 출력되고 다음 for문에 의해 0부터 10 전까지 출력되는 것을 볼 수 있다.
 
-<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/java/script6.png">
+<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/linux/script6.png">
 
 ### 마무리
 
 예제를 실습하면서 vim의 사용법이 은근 재미있었다. 백엔드 개발자라면 서비스 배포를 위해 한번쯤 shell script를 공부해보고 vim 사용법을 익히는 것은 도움이 될거 같다.
 
-<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/java/해피해킹.jpeg">
+<img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/linux/해피해킹.jpeg">
 
 vim 사용에 최적화 된 미친 가격의 해피해킹 키보드
 
