@@ -1,5 +1,5 @@
 ---
-title: OBJECT DAO, DTO, VO, ENTITY의 차이
+title: RestTemplate에 대해서
 categories: [Learn, Spring, RestTemplate]
 tags: [resttemplate, http, restful, api]		# TAG는 반드시 소문자로 이루어져야함!
 lastmod : 2023-04-29 10:48:00 # 페이지의 마지막 수정일
