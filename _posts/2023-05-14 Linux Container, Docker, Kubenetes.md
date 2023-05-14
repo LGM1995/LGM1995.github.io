@@ -1,6 +1,6 @@
 ---
 title: 배포와 리눅스 컨테이너, 도커, 쿠버네티스에 대해서 알아보자-(01)
-categories: [Learn, Linux]
+categories: [Learn, Linux, Container]
 tags: [linux, container, docker, kubernetes]		# TAG는 반드시 소문자로 이루어져야함!
 lastmod : 2023-05-14 10:48:00 # 페이지의 마지막 수정일
 sitemap :
