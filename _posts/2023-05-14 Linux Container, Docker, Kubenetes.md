@@ -1,8 +1,8 @@
 ---
-title: 테스트
+title: 배포와 리눅스 컨테이너, 도커, 쿠버네티스에 대해서 알아보자-(01)
 categories: [Learn, Linux, Container]
 tags: [linux, container, docker, kubernetes]		# TAG는 반드시 소문자로 이루어져야함!
-lastmod : 2023-05-14 10:48:00 # 페이지의 마지막 수정일
+lastmod : 2023-05-14 09:48:00 # 페이지의 마지막 수정일
 sitemap :
 changefreq : daily # 페이지의 변경 빈도 always/hourly/daily/weekly/monthly/yearly/never
 priority : 1.0 # 페이지의 검색순위로 검색엔진에게 우선순위를 알려줌 0.0-1.0 (defult 0.5)
