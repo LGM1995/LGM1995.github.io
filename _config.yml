@@ -12,6 +12,8 @@ baseurl: ''
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
+futrue: true
+
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Seoul
@@ -43,8 +45,8 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/lmg1995       # change to your github homepage
-    - https://www.facebook.com/gunmok.lee     
-    - https://www.instagram.com/gunmok.l 
+    - https://www.facebook.com/gunmok.lee
+    - https://www.instagram.com/gunmok.l
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -199,3 +201,4 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
