@@ -17,7 +17,7 @@ Mybatis의 경우 root-context.xml / JPA의 경우 apllication.properties에 DB 
 
 데이터 베이스에 접근한다는 측면에서 Repository와 혼동이 될 수 있으나 repostiry에서는 여러 DAO를 다룰 수 있다는 점에서 조금 더 상위 레벨로 볼 수 있다.
 
-```
+```java
 public class MemberDAO {
     private Connection connection;
     private PreparedStatement preparedStatement;
@@ -64,7 +64,7 @@ public class MemberDAO {
 DTO는 데이터 전송 객채로 주로 비동기 처리를 위해 사용되는 가변 객체이다. 레이어간의 데이터 교환을 위해 사용되며 필요한 데이터를 하나씩 만드는 것이 아니라 특정 객체 형태로 보낼 수 있다는 장점이 있다.
 getter와 setter의 메소드만 가지며 어떠한 비즈니스 로직을 가져선 안된다.
 
-```
+```java
 public class LoginDTO {
 
   private String email;
@@ -94,7 +94,7 @@ public class LoginDTO {
 
 Read-Only의 속성을 가진 객체로 getter의 기능만을 가지고 있다. 다른 객체들과 다르게 equals()와 hashcode()를 오버라이딩하여 객체에 선언된 필드의 값이 같으면 같은 객체라고 판단한다.
 
-```
+```java
 public class ProductVO {
 
   private String name;
@@ -123,7 +123,7 @@ setter를 사용을 지양하고 생성자를 통해 값들을 설정한다. 일
 ex) BusinessMember(클래스) => business_member(테이블)
 ```
 
-```
+```java
 @Entity
 @Getter
 @Setter

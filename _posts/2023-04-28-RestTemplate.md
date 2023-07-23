@@ -31,7 +31,7 @@ Spring 3.0 부터 지원하는 Http 통신을 유용하게 다룰 수 있는 템
 이전의 Spring은 서버와 통신하기 위해서 URLConnection을 사용했는데 사용방법은 아래의 코드와 같다.
 
 (Post 요청에 대한 예시 소스코드)
-```
+```java
 public class URLConnectionPostJsonExample {
    public static void main(String args[]) throws Exception {
       URL url = new URL("https://www.example.com/api/create");
@@ -67,7 +67,7 @@ public class URLConnectionPostJsonExample {
 Apache 재단에서 지원하는 라이브러리로 Maven 3.x 이상의 버전부터 사용이 가능하며 Dependency에 의존성을 추가하여 사용한다.
 
 (Post 요청에 대한 예시 소스코드)
-```
+```java
 public class HttpClientPostJsonExample {
    public static void main(String args[]) throws Exception {
       CloseableHttpClient client = HttpClients.createDefault();
@@ -125,7 +125,7 @@ RestTemplate는 내부적으로 URLConnection, HttpClient 등의 라이브러리
 ## RestTemplate 예제 코드
 
 (Post 요청에 대한 예시 소스코드)
-```
+```java
 RestTemplate restTemplate = new RestTemplate();
 
 HttpHeaders headers = new HttpHeaders();

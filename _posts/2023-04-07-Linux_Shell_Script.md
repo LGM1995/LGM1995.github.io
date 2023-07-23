@@ -49,7 +49,7 @@ exam.sh라는 .sh 파일을 touch exam.sh 라는 커맨드로 만든 후 ./exam.
 
 exam.sh의 스크립트는 다음과 같다.
 
-```
+```shell
 #!/bin/bash
 
 echo "hello, lee" #개행됨
@@ -74,7 +74,7 @@ printf
 
 ### 변수 (Variable)
 
-```
+```shell
 #!/bin/bash
 
 name="lee"
@@ -89,7 +89,7 @@ echo "${name}, ${age}"
 
 ### 호출
 
-```
+```shell
 #!/bin/bash
 #exam.sh
 export MY_NAME="kim"
@@ -97,7 +97,7 @@ export MY_NAME="kim"
 ./exam2.sh
 ```
 
-```
+```shell
 #!/bin/bash
 #exam2.sh
 
@@ -124,13 +124,13 @@ export로 변수를 선언해주고 exam.sh를 실행하면 exam.sh안에 ./exam
 
 쉘 스크립트도 함수를 사용이 가능하며 정의 방식은 다음과 같다.
 
-```
+```shell
 function 함수명(){
 content....
 }
 ```
 
-```
+```shell
 #!/bin/bash
 
 function func(){
@@ -152,7 +152,7 @@ func2
 ### if문
 
 if 문을 사용할 때는 if [ 조건 ]; then ... elif [ 조건 ]; then ... else를 사용 한다.
-```
+```shell
 #!/bin/bash
 num=7
 
@@ -173,7 +173,7 @@ fi
 
 while문
 
-```
+```shell
 #!/bin/bash
 
 cnt=0
@@ -188,7 +188,7 @@ done
 <img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/linux/script6.png">
 
 for문
-```
+```shell
 #!/bin/bash
 
 arr_num=(1 2 3 4 5 6 7)

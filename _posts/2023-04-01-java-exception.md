@@ -53,7 +53,7 @@ Exception은 프로그램 실행 중 발생하는 오류로 예측 가능한 상
 그 중 대다수가 예외 처리에 대한 부분이었다.
 
 비슷한 예제 코드를 보며 상황을 설명해 본다.
-```
+```java
 public class ErroHandling() {
   public static void main(String[] args) {
     BufferdReader reader = null;
@@ -74,7 +74,7 @@ Java에서 모든 Error와 Exception은 최상의 Objcet를 상속 받았고 어
 
 그러나 시큐어 코딩 가이드에 따르면 예상 가능한 순서대로 예외처리를 해야하고 어떠한 예외가 발생한 것 인지 더 세분화 할 수 있도록 가이드를 제시한다.
 
-```
+```java
 public class ErroHandling() {
   public static void main(String[] args) {
     BufferdReader reader = null;
@@ -98,7 +98,7 @@ public class ErroHandling() {
 <img width="1426" alt="primary" src="https://lgm1995.github.io/assets/img/learn/java/bug.jpeg">
 보이지 않아 .. 다음 에러....
 
-```
+```java
 public interface MemberRepository() {
   List<MemberDto> findMyPk(String pk) throws Exception;
 

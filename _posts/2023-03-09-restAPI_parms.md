@@ -41,7 +41,7 @@ header 파라미터는 흔히 인증이나 권한 부여의 목적에서 사용�
 
 보통 대부분의 설명은 엔드포인트의 일부라고 설명하는데 쉽게 말하면 자원URI에 포함되는 파라미터이다.
 
-```
+```java
 @RestController
 @RequestMapping("/api")
 public class CreamApiController {
@@ -70,7 +70,7 @@ public class CreamApiController {
 
 엔드포인트에서 물음표 뒤에 등장하는 qurey 파라미터로 정렬이나 특정 필터를 하기 위해 적절하다.
 
-```
+```java
 @RestController
 @RequestMapping("/api")
 public class CreamApiController {
@@ -99,7 +99,7 @@ public class CreamApiController {
 
 requestBody에 데이터(주로 json)를 담아 요청하는 방식으로 주로 Post방식에 사용되는 파라미터이다.
 
-```
+```java
 @RestController
 @RequestMapping("/api")
 public class CreamApiController {
@@ -124,7 +124,7 @@ public class CreamApiController {
 
 위의 코드로 admin이라는 회원의 cream 데이터를 추가한다면 /api/admin 이라는 URI 자원에 Http메서드는 Post 방식으로 json데이터가 같이 넘어온다.
 
-```
+```java
 public class CreamDto {
     private Long id;
     private String menu;
@@ -133,7 +133,7 @@ public class CreamDto {
     private Long temperature;
 ```
 CreamDto는 다음 형태와 같으며 json으로
-```
+```json
 {
   "id": 3,
   "menu": "순대국",
