@@ -1,5 +1,5 @@
 ---
-title: JPA(Java Persistence API)
+title: JPA 데이터 값타입 (BaseEntity와 Embedded Type 활용)
 categories: [Learn, Java]
 tags: [java, jpa ]		# TAG는 반드시 소문자로 이루어져야함!
 lastmod : 2023-01-09 23:00:00 # 페이지의 마지막 수정일
